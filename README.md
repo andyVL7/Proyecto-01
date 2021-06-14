@@ -2,22 +2,22 @@
 # Andy Johel Valverde Ledezma
 # C09291
 
-## Cargamos los paquetes:
+## **Cargamos los paquetes:**
 library(ggplot2)  
 library(dplyr)  
 library(hrbrthemes)  
 
 
-## Asigné un nombre al documento con el que voy a trabajar
+## **Asigné un nombre al documento con el que voy a trabajar**
 data_clima <- read.csv("liberia_datos_climaticos.csv",
                        sep = ",",
                        na.strings = "",
                        dec = ",")
                        
-## Revisé que no tuviera celdas vacías(NA)
+## **Revisé que no tuviera celdas vacías(NA)**
 View(data_clima)
 
-## Realicé los histogramas
+## **Realicé los histogramas**
 
 ### Histograma de temperatura
 ggplot(data_clima, aes(x = Temperatura..Celsius.)) +
