@@ -78,3 +78,6 @@ ggplot(data_clima, aes(x = EvapoTranspiracion..mm.)) +
   xlab("EvapoTranspiración") +
   ylab("Frecuencia")+       
   theme_ft_rc()
+
+## **Unimos los histogramas**
+F1<-grid.arrange(p6,p5,p4,p3,p2,p, nrow= 2)
