@@ -28,6 +28,7 @@ ggplot(data_clima, aes(x = Temperatura..Celsius.)) +
   xlab("Temperatura(Celsius)") +
   ylab("Días")+
   theme_ipsum()
+
 ![](imagen-1.png)
 
 ### Histograma de Humedad Relativa
@@ -39,6 +40,7 @@ ggplot(data_clima, aes(x = HumedadRelativa....)) +
   xlab("Humedad Relativa") +
   ylab("Días")+
   theme_ipsum_es()
+
 ![](imagen2.png)
   
 ### Histograma de Velocidad de viento
@@ -50,6 +52,7 @@ ggplot(data_clima, aes(x = VelocidadViento..m.s.)) +
   xlab("Velocidad de viento") +
   ylab("Días")+
   theme_ft_rc()
+
 ![](imagen-3.png)
   
 ### Histograma de Lluvias
@@ -61,6 +64,7 @@ ggplot(data_clima, aes(x = Lluvia..mm.)) +
   xlab("Lluvias") +
   ylab("Frecuencia")+       
   theme_ipsum_es()
+
 ![](imagen-4.png)
   
 ### Histograma de Irradiacion
@@ -72,6 +76,7 @@ ggplot(data_clima, aes(x = Irradiacion..W.m2.)) +
   xlab("Iradiacion") +
   ylab("Frecuencia")+       
   scale_color_ipsum()
+
 ![](imagen-5.png)
 
 ### Histograma de EvapoTranspiracion
@@ -83,9 +88,11 @@ ggplot(data_clima, aes(x = EvapoTranspiracion..mm.)) +
   xlab("EvapoTranspiración") +
   ylab("Frecuencia")+       
   theme_ft_rc()
+
 ![](imagen-6.png)
 
 ## **Unimos los histogramas**
 F1<-grid.arrange(p6,p5,p4,p3,p2,p, nrow= 2)
+
 ![](Histogramas juntos.png)
 
