@@ -96,3 +96,5 @@ F1<-grid.arrange(p6,p5,p4,p3,p2,p, nrow= 2)
 
 ![](Histogramas juntos.png)
 
+## **Ahora realizaremos graficos para relacionar las variables entre si**
+
