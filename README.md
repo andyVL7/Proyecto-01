@@ -97,8 +97,12 @@ F1<-grid.arrange(p6,p5,p4,p3,p2,p, nrow= 2)
 ![](Histogramas juntos.png)
 
 ## **Ahora realizaremos los graficos mensuales**
+### Asignaremos nombres a las variebles
+names(data_clima) <- c("fecha","Temperatura","Humedad","Viento","Lluvia","Irradiacion","Evapotrans")
 
+### Ahora seguiremos con lo de los graficos mensuales
 
+Los gráficos mensuales no supe como hacerlos
 
 ## **Ahora realizaremos graficos para relacionar las variables entre si**
 
