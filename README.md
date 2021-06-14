@@ -65,7 +65,7 @@ ggplot(data_clima, aes(x = Lluvia..mm.)) +
   ylab("Frecuencia")+       
   theme_ipsum_es()
 
-![](imagen-4.png)
+![](Imagen-4.png)
   
 ### Histograma de Irradiacion
 ggplot(data_clima, aes(x = Irradiacion..W.m2.)) +
