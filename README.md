@@ -96,5 +96,47 @@ F1<-grid.arrange(p6,p5,p4,p3,p2,p, nrow= 2)
 
 ![](Histogramas juntos.png)
 
+## **Ahora realizaremos los graficos mensuales**
+
+
+
 ## **Ahora realizaremos graficos para relacionar las variables entre si**
 
+### **Gráfico de dispersión de Temperatura y Humedad**
+
+ggplot(data_clima, aes(x = Temperatura)) +
+  geom_point(
+    aes(y = Humedad)
+  ) +
+  ggtitle("Relación entre Temperatura y Humedad en la Liberia") +
+  xlab("Tempertura") +
+  ylab("Humedad") +
+  theme_ipsum()
+
+![](relacion-1.png)
+
+### **Gráfico de dispersión de velocidad de viento y lluvia**
+
+ggplot(data_clima, aes(x = Viento)) +
+  geom_point(
+    aes(y = Lluvia)
+  ) +
+  ggtitle("Relación entre Velocidad de viento y Lluvia en Liberia") +
+  xlab("Velocidad de viento") +
+  ylab("Lluvia") +
+  theme_ft_rc()
+  
+![](relacion-2.png)
+  
+### **Gráfico de dispersión de Irradiacion y Evapotranspiracion**
+
+ggplot(data_clima, aes(x = Irradiacion)) +
+  geom_point(
+    aes(y = Evapotrans)
+  ) +
+  ggtitle("Relación entre Irradiacion y Evapotranspiracion en Liberia") +
+  xlab("Irradiacion") +
+  ylab("Evapotranspiracion") +
+  theme_ipsum()
+  
+![](relacion-3.png)
