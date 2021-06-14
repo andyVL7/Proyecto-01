@@ -140,3 +140,9 @@ ggplot(data_clima, aes(x = Irradiacion)) +
   theme_ipsum()
   
 ![](relacion-3.png)
+
+## **Unimos los tres gráficos en uno**
+
+ggpubr::ggarrange(r,r2,r3, labels = c("A)","B)","C)"))
+
+![](graficos junto 2.png)
