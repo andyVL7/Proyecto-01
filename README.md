@@ -145,4 +145,4 @@ ggplot(data_clima, aes(x = Irradiacion)) +
 
 ggpubr::ggarrange(r,r2,r3, labels = c("A)","B)","C)"))
 
-![](graficos junto 2.png)
+![](graficos juntos 2.png)
