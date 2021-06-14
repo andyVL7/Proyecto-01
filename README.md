@@ -3,10 +3,10 @@
 # C09291
 
 ## Cargamos los paquetes:
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-library(ggplot)
+library(ggplot2)  
+library(dplyr)  
+library(hrbrthemes)  
+
 
 ## Asigné un nombre al documento con el que voy a trabajar
 data_clima <- read.csv("liberia_datos_climaticos.csv",
